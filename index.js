@@ -8,14 +8,14 @@
 // + Fish with `name`, `species`, and `waterConditions` properties
 
 function Dog(name, breed, age) {
-  this.dogname = name;
+  this.name = name;
   this.breed = breed;
   this.age = age;
 };
 
 
 function Cat(name, breed, age) {
-  this.catname = name;
+  this.name = name;
   this.breed = breed;
   this.age = age;
-}
+};
